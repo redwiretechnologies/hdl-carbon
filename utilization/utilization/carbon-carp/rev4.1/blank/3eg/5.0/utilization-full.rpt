@@ -1,0 +1,47 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Fri Apr 12 13:19:15 2024
+| Host         : jonathan-laptop-framework running 64-bit Ubuntu 22.04.4 LTS
+| Command      : report_utilization -file carbon-carp_blank.utilization/utilization-full.rpt -hierarchical
+| Design       : system_top
+| Device       : xczu3eg-sfvc784-1-e
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------------------------+---------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------+------------+
+|             Instance            |                          Module                         | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | URAM | DSP Blocks |
++---------------------------------+---------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------+------------+
+| system_top                      |                                                   (top) |         50 |         50 |       0 |    0 |  40 |      0 |      0 |    0 |          0 |
+|   (system_top)                  |                                                   (top) |          0 |          0 |       0 |    0 |   0 |      0 |      0 |    0 |          0 |
+|   gpo_matrix                    |                                           line_matrix_0 |         50 |         50 |       0 |    0 |  40 |      0 |      0 |    0 |          0 |
+|     inst                        |                               line_matrix_0_line_matrix |         50 |         50 |       0 |    0 |  40 |      0 |      0 |    0 |          0 |
+|       initialize_modules[0].lm0 |                                  line_matrix_0_line_mux |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|       initialize_modules[1].lm0 |                  line_matrix_0_line_mux__parameterized0 |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|       initialize_modules[2].lm0 |                  line_matrix_0_line_mux__parameterized1 |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|       initialize_modules[3].lm0 |                  line_matrix_0_line_mux__parameterized2 |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|       initialize_modules[4].lm0 |                  line_matrix_0_line_mux__parameterized3 |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|       initialize_modules[5].lm0 |                  line_matrix_0_line_mux__parameterized4 |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|       initialize_modules[6].lm0 |                  line_matrix_0_line_mux__parameterized5 |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|       initialize_modules[7].lm0 |                  line_matrix_0_line_mux__parameterized6 |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|       initialize_modules[8].lm0 |                  line_matrix_0_line_mux__parameterized7 |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|       initialize_modules[9].lm0 |                  line_matrix_0_line_mux__parameterized8 |          5 |          5 |       0 |    0 |   4 |      0 |      0 |    0 |          0 |
+|   i_system_wrapper              |                                          system_wrapper |          0 |          0 |       0 |    0 |   0 |      0 |      0 |    0 |          0 |
+|     system_i                    |                                                  system |          0 |          0 |       0 |    0 |   0 |      0 |      0 |    0 |          0 |
+|       (system_i)                |                                                  system |          0 |          0 |       0 |    0 |   0 |      0 |      0 |    0 |          0 |
+|       sys_ps8                   |                                        system_sys_ps8_0 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |    0 |          0 |
+|         inst                    | system_sys_ps8_0_zynq_ultra_ps_e_v3_3_6_zynq_ultra_ps_e |          0 |          0 |       0 |    0 |   0 |      0 |      0 |    0 |          0 |
++---------------------------------+---------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
