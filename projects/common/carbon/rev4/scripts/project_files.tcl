@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 lappend project_files \
   "$script_dir/../../../common/carbon/rev4/carbon_system_constr.xdc"
 

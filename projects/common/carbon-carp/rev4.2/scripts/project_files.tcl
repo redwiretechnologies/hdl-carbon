@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 lappend project_files \
   "$script_dir/../../../common/carbon-carp/rev4.1/carbon-carp_system_constr.xdc"
 

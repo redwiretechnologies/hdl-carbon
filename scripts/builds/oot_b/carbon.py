@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 from . import te080x_soms
 from . import oot_builds
 

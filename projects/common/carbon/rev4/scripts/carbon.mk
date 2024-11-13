@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 SUPPORTED_BOARDS := carbon
 REVISION := rev4
 M_DEPS += ../../../common/carbon/$(REVISION)/carbon_system_constr.xdc

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 SUPPORTED_BOARDS := carbon-carp
 REVISION := rev4.1
 M_DEPS += ../../../common/carbon-carp/$(REVISION)/carbon-carp_system_constr.xdc

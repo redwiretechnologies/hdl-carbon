@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 # ad9361 slave
 
 set_property  -dict {PACKAGE_PIN  AG6   IOSTANDARD LVDS    DIFF_TERM_ADV TERM_100} [get_ports rx_clk_in_1_p]
