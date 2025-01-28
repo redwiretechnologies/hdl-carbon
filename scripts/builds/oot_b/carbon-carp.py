@@ -4,7 +4,7 @@ from . import te080x_soms
 from . import oot_builds
 
 carbon_carp_dict = {  "carbon-carp"   : {
-                                         "revisions" : ["rev4.1", "rev4.2"],
+                                         "revisions" : ["rev4.2"],
                                          "images"    : ["blank", "default", "gr-iio"],
                                          "boards"    : ["3eg", "4ev", "9eg", "15eg"],
                                          "som_rev"   : te080x_soms.te080x_som_revisions,
