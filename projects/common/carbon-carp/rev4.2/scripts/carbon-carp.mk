@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 SUPPORTED_BOARDS := carbon-carp
-REVISION := rev4.1
+REVISION := rev4.2
 M_DEPS += ../../../common/carbon-carp/$(REVISION)/carbon-carp_system_constr.xdc
 M_DEPS += ../../../common/carbon-carp/$(REVISION)/carbon-carp_system_bd.tcl
 M_CUSTOM_LIBS += line_matrix
